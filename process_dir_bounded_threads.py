@@ -9,14 +9,9 @@
 #
 
 import argparse
-import ipaddress
-import json
 import logging
 import os
-import re
-import subprocess
 import sys
-import tempfile
 
 from queue import Queue
 from threading import Thread
